@@ -22,6 +22,7 @@ with tf.variable_scope("t_emb"):
 
 # References
 Please note that we are **not** the author of the following reference.
+
 [1] Jégou, Hervé, and Andrew Zisserman. "Triangulation embedding and democratic aggregation for image search." Proceedings of the IEEE conference on computer vision and pattern recognition. 2014.
 
 # Changes
