@@ -1,5 +1,5 @@
-# End-to-End Trainable NetTriangulationEmbedding
-This code implements Triangulation Embedding layer presented in [1]. 
+# End-to-End Trainable Triangulation Embedding
+This code implements end-to-end trainable Triangulation Embedding layer. The work is inspired by NetVLAD, an end-to-end trainable VLAD layer. 
 
 The module was implemented & tested in TensorFlow 1.8.0. NetTriangulation is distributed under Apache-2 License (see the `LICENCE` file). 
 
