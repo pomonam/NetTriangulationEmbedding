@@ -1,9 +1,10 @@
 # End-to-End Trainable NetTriangulationEmbedding
 This code implements Triangulation Embedding layer presented in [1]. 
 
-The layer was implemented & tested in TensorFlow 1.8.0. NetTriangulation is distributed under Apache-2 License (see the `LICENCE` file).
+The module was implemented & tested in TensorFlow 1.8.0. NetTriangulation is distributed under Apache-2 License (see the `LICENCE` file). 
 
 # Usage
+NetTriangulationEmbedding has potential usages in image classification and retrieval tasks. It is applicable to end-to-end trainable models, which is an improvement from origianl Triangulation Embedding method described in [1].
 ```
 from NetTriangulationEmbedding import TriangulationEmbeddingModule, 
                                       TemporalDifferenceDescriptors
