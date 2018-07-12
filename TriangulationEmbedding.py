@@ -128,9 +128,8 @@ class TemporalDifferenceDescriptors:
         :param inputs: 2D Tensor with dimension '(batch_size * num_descriptors) x (feature_size * num_anchors)'
         :return: 3D Tensor with dimension 'batch_size x (num_descriptors - 1) x (feature_size * num_anchors)'
         """
-        cloned_inputs = tf.identity(inputs)
         # Shift the input to the right (to subtract descriptor D-1 from descriptor D):
-        cloned_inputs = tf.manip.roll(cloned_inputs, shift=1, axis=1)
+        cloned_inputs = tf.manip.roll(inputs, shift=1, axis=1)
         temp_info = tf.subtract(inputs, cloned_inputs)
 
         temp_info_reshaped = tf.reshape(temp_info, [-1, self.num_anchors, self.feature_size])
