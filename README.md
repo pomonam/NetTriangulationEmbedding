@@ -28,6 +28,8 @@ Please note that we are **not** the author of the following reference.
 # Changes
 - **1.00** (08 July 2018)
     - Initial public release
+- **1.01** (17 September 2018)
+    - Removed class TemporalDifferenceDescriptors. The purpose of this class was to calculate the optical flow in a high dimensional vector.
     
 # Contributors
 - [Juhan Bae](https://github.com/pomonam)
